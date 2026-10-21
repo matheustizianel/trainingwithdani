@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-green-neon: #a3e635;
+  --color-green-neonHover: #84cc16;
+  --color-green-neonGlow: rgba(163, 230, 53, 0.25);
+  --color-dark: #0a0a0a;
+  --color-surface: #171717;
+  --color-tb: #262626;
+}
+
+body {
+  background-color: var(--color-dark);
+}
+
+@keyframes ribbon-treadmill {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-ribbon {
+  animation: ribbon-treadmill 16s linear infinite;
+}
+
+.animate-ribbon:hover {
+  animation-play-state: paused;
+}
