@@ -74,22 +74,27 @@ export function TrainingDetails({id}: TProps) {
                 <a
                     href="https://wa.me/+553184665184"
                     target="_blank"
-                    className="group flex cursor-pointer mt-6 gap-10 bg-dark/90 border border-green-neon/20 rounded-2xl p-6"
+                    rel="noopener noreferrer"
+                    className="group flex flex-col sm:flex-row sm:items-center justify-between cursor-pointer mt-6 gap-4 sm:gap-6 lg:gap-10 bg-dark/90 border border-green-neon/20 rounded-2xl p-5 sm:p-6"
                 >
                     <div className="flex items-start gap-3 flex-1">
-                        <div className=" bg-green-neonGlow/20 rounded-lg p-3 inline-flex justify-center items-center">
-                            <RefreshCw className="w-8 h-8 text-green-neon group-hover:rotate-180 transition-transform ease-out duration-300" />
+                        <div className="bg-green-neonGlow/20 rounded-lg p-3 inline-flex justify-center items-center shrink-0">
+                            <RefreshCw className="w-6 h-6 sm:w-8 sm:h-8 text-green-neon group-hover:rotate-180 transition-transform ease-out duration-300" />
                         </div>
 
                         <div>
-                            <h2 className="uppercase mb-2 font-medium">Need to reschedule? No problem!</h2>
-                            <p className="text-sm text-neutral-400">Life happens. Students can reschedule any Saturday session directly with Dani for an upcoming date or makeup class.</p>
+                            <h2 className="uppercase mb-1 sm:mb-2 font-bold text-white text-sm sm:text-base leading-snug">
+                                Need to reschedule? No problem!
+                            </h2>
+                            <p className="text-xs sm:text-sm text-neutral-400 leading-relaxed">
+                                Life happens. Students can reschedule any Saturday session directly with Dani for an upcoming date or makeup class.
+                            </p>
                         </div>
                     </div>
 
-                    <div className="px-6 flex justify-center items-center gap-3 bg-green-neonGlow/20 rounded-lg text-green-neon font-medium">
-                        <CheckCircle2 className="w-6 h-6" />
-                        <span className="text-sm">Flexible Makeup Guaranteed</span>
+                    <div className="self-start sm:self-center px-4 py-2.5 sm:px-5 sm:py-3 flex justify-center items-center gap-2.5 bg-green-neonGlow/20 rounded-lg text-green-neon font-medium shrink-0">
+                        <CheckCircle2 className="w-5 h-5 shrink-0" />
+                        <span className="text-xs sm:text-sm whitespace-nowrap">Flexible Makeup Guaranteed</span>
                     </div>
                 </a>
             </div>
