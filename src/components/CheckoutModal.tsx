@@ -13,9 +13,9 @@ type TProps = {
 export function CheckoutModal({
                                  isOpen,
                                  onClose,
-                                 zelleInfo = "dani.training@gmail.com",
-                                 venmoUsername = "Dani-Training",
-                                 cashAppTag = "$DaniTraining",
+                                 // zelleInfo = "dani.training@gmail.com",
+                                 // venmoUsername = "Dani-Training",
+                                 cashAppTag = "$DanielaViega",
                                  whatsappNumber = "+553184665184"
                              }: TProps) {
 
@@ -78,13 +78,15 @@ export function CheckoutModal({
                 </div>
 
                 <div className="mt-5 space-y-3">
+                    {/*
                     <div className="bg-dark border border-tb p-3.5 rounded-xl flex items-center justify-between">
                         <div>
-              <span className="text-[10px] font-black uppercase text-[#7414CA] tracking-wider bg-[#7414CA]/15 px-2 py-0.5 rounded">
-                Zelle
-              </span>
+                          <span className="text-[10px] font-black uppercase text-[#7414CA] tracking-wider bg-[#7414CA]/15 px-2 py-0.5 rounded">
+                            Zelle
+                          </span>
                             <p className="text-sm font-bold text-white mt-1 select-all">{zelleInfo}</p>
                         </div>
+
                         <button
                             type="button"
                             onClick={() => copyToClipboard(zelleInfo, "zelle")}
@@ -101,11 +103,12 @@ export function CheckoutModal({
 
                     <div className="bg-dark border border-tb p-3.5 rounded-xl flex items-center justify-between">
                         <div>
-              <span className="text-[10px] font-black uppercase text-[#008CFF] tracking-wider bg-[#008CFF]/15 px-2 py-0.5 rounded">
-                Venmo
-              </span>
+                          <span className="text-[10px] font-black uppercase text-[#008CFF] tracking-wider bg-[#008CFF]/15 px-2 py-0.5 rounded">
+                            Venmo
+                          </span>
                             <p className="text-sm font-bold text-white mt-1">@{venmoUsername}</p>
                         </div>
+
                         <button
                             type="button"
                             onClick={() => copyToClipboard(venmoUsername, "venmo")}
@@ -119,6 +122,7 @@ export function CheckoutModal({
                             )}
                         </button>
                     </div>
+                    */}
 
                     <div className="bg-dark border border-tb p-3.5 rounded-xl flex items-center justify-between">
                         <div>
