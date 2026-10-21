@@ -16,7 +16,7 @@ export function CheckoutModal({
                                  zelleInfo = "dani.training@gmail.com",
                                  venmoUsername = "Dani-Training",
                                  cashAppTag = "$DaniTraining",
-                                 whatsappNumber = "+19047053626"
+                                 whatsappNumber = "+553184665184"
                              }: TProps) {
 
     const [copiedField, setCopiedField] = useState<string | null>(null)

@@ -72,7 +72,7 @@ export function TrainingDetails({id}: TProps) {
                 </div>
 
                 <a
-                    href="https://wa.me/+19047053626"
+                    href="https://wa.me/+553184665184"
                     target="_blank"
                     className="group flex cursor-pointer mt-6 gap-10 bg-dark/90 border border-green-neon/20 rounded-2xl p-6"
                 >
