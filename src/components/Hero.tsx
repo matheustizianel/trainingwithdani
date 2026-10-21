@@ -112,9 +112,9 @@ export function Hero({ onOpenLocation, onLearnMore, onCTAClick }: TProps) {
                 <CircleChevronRightIcon className="w-6 h-6" />
             </div>
 
-            <div className="mt-6 flex items-center gap-1.5 text-xs text-neutral-500 font-medium select-none">
-                <ShieldCheck className="w-6 h-6 text-green-neon" />
-                <span>Direct and secure checkout processed via <strong className="text-neutral-400 font-bold">Stripe</strong></span>
+            <div className="relative z-10 mt-6 flex items-center gap-1.5 text-xs text-neutral-500 font-medium select-none">
+                <ShieldCheck className="w-4 h-4 text-green-neon" />
+                <span>Direct & instant payment via <strong className="text-neutral-400 font-bold">Zelle, Venmo or Cash App</strong></span>
             </div>
 
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3 w-full max-w-xl">

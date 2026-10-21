@@ -43,7 +43,7 @@ export function Footer({instagramHandle = "danielaviegaeua", whatsappNumber = "+
                         Training With Dani - Hybrid Workout
                     </p>
                     <p className="mt-2 text-neutral-400">
-                        $15/month Fee • All Saturdays Included • Direct Stripe Billing
+                        $15/month Fee • All Saturdays Included
                     </p>
                     <p className="mt-2 uppercase tracking-wider text-[10px] text-neutral-400">
                         All rights reserved
