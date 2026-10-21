@@ -5,6 +5,7 @@ import {Header} from "./components/Header.tsx"
 import {Hero} from "./components/Hero.tsx"
 import {TrainingDetails} from "./components/TrainingDetails.tsx"
 import {Carousel} from "./components/Carousel.tsx"
+import {Footer} from "./components/Footer.tsx"
 
 import {LocationModal} from "./components/LocationModal.tsx"
 import {CheckoutModal} from "./components/CheckoutModal.tsx"
@@ -46,27 +47,7 @@ export function App() {
                 <Carousel />
             </main>
 
-            <footer className="flex justify-between items-center max-w-6xl mx-auto py-8 text-center text-xs text-neutral-500">
-                <div>
-                    <p className="font-semibold text-green-neon">
-                        Training With Dani - Hybrid Workout
-                    </p>
-
-                    <p className="mt-1">$15/week Fee • All Saturdays Included • Direct Stripe Billing</p>
-
-                    <p className="mt-1 uppercase">All rights reserved</p>
-                </div>
-
-                <div className="flex gap-2.5">
-                    <a className=" bg-green-neonGlow/20 rounded-lg p-4 inline-flex justify-center items-center">
-                        <img src="/instagram.svg"  alt="instagram logo" />
-                    </a>
-
-                    <a className=" bg-green-neonGlow/20 rounded-lg p-4 inline-flex justify-center items-center">
-                        <img src="/whatsapp.svg"  alt="whatsApp logo" />
-                    </a>
-                </div>
-            </footer>
+            <Footer />
 
             <LocationModal isOpen={isLocationOpen} onClose={() => setIsLocationOpen(false)} />
             <CheckoutModal isOpen={isCheckoutOpen} onClose={() => setIsCheckoutOpen(false)} />

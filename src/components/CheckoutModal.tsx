@@ -55,7 +55,7 @@ export function CheckoutModal({ isOpen, onClose }: TProps) {
                     <div className="w-12 h-12 bg-green-neon/20 text-green-neon rounded-full flex items-center justify-center mx-auto mb-3">
                         <CreditCard className="w-6 h-6" />
                     </div>
-                    <h3 className="text-xl font-black uppercase text-white">Monthly Subscription</h3>
+                    <h3 className="text-xl font-black uppercase text-white">Weekly Subscription</h3>
                     <p className="text-xs text-neutral-400 mt-1">Full access to all Saturday group training sessions</p>
                 </div>
 
@@ -72,11 +72,11 @@ export function CheckoutModal({ isOpen, onClose }: TProps) {
                     </div>
                     <div className="flex justify-between text-neutral-300">
                         <span>Billing Cycle:</span>
-                        <span className="text-neutral-400">Monthly recurring (cancel anytime)</span>
+                        <span className="text-neutral-400">Weekly recurring (cancel anytime)</span>
                     </div>
                     <div className="flex justify-between text-neutral-300 pt-2 border-t border-tb text-sm font-black">
                         <span>Total:</span>
-                        <span className="text-green-neon">$15.00 / month</span>
+                        <span className="text-green-neon">$15.00 / week</span>
                     </div>
                 </div>
 
