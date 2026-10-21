@@ -39,7 +39,7 @@ export function Hero({ onOpenLocation, onLearnMore, onCTAClick }: TProps) {
             <div className="mt-10 w-full max-w-5xl p-2.5 sm:p-3 rounded-2xl bg-[#121212]/90 border border-zinc-800/80 shadow-2xl backdrop-blur-md">
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-3">
                     <div className="relative bg-surface/80 rounded-xl p-4 flex flex-col items-center justify-center text-center border border-zinc-800/60 min-h-22">
-                        <span className="absolute -top-3 bg-linear-to-r from-emerald-400 to-green-neon text-black text-xs font-black uppercase px-3 py-1 rounded-full shadow-sm">
+                        <span className="absolute -top-7 sm:-top-3 bg-linear-to-r from-emerald-400 to-green-neon text-black text-xs font-black uppercase px-3 py-1 rounded-full shadow-sm">
                             Classes start Oct 24th
                         </span>
 
