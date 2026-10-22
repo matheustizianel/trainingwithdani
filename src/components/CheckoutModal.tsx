@@ -14,8 +14,8 @@ export function CheckoutModal({
                                  isOpen,
                                  onClose,
                                  // zelleInfo = "dani.training@gmail.com",
-                                 // venmoUsername = "Dani-Training",
-                                 cashAppTag = "$DanielaViega",
+                                 venmoUsername = "@Daniela-Viega",
+                                 // cashAppTag = "$DanielaViega",
                                  whatsappNumber = "+553184665184"
                              }: TProps) {
 
@@ -79,7 +79,7 @@ export function CheckoutModal({
 
                 <div className="mt-5 space-y-3">
                     {/*
-                    <div className="bg-dark border border-tb p-3.5 rounded-xl flex items-center justify-between">
+                        <div className="bg-dark border border-tb p-3.5 rounded-xl flex items-center justify-between">
                         <div>
                           <span className="text-[10px] font-black uppercase text-[#7414CA] tracking-wider bg-[#7414CA]/15 px-2 py-0.5 rounded">
                             Zelle
@@ -100,13 +100,14 @@ export function CheckoutModal({
                             )}
                         </button>
                     </div>
+                    */}
 
                     <div className="bg-dark border border-tb p-3.5 rounded-xl flex items-center justify-between">
                         <div>
                           <span className="text-[10px] font-black uppercase text-[#008CFF] tracking-wider bg-[#008CFF]/15 px-2 py-0.5 rounded">
                             Venmo
                           </span>
-                            <p className="text-sm font-bold text-white mt-1">@{venmoUsername}</p>
+                            <p className="text-sm font-bold text-white mt-1">{venmoUsername}</p>
                         </div>
 
                         <button
@@ -122,13 +123,13 @@ export function CheckoutModal({
                             )}
                         </button>
                     </div>
-                    */}
 
-                    <div className="bg-dark border border-tb p-3.5 rounded-xl flex items-center justify-between">
+                    {/*
+                        <div className="bg-dark border border-tb p-3.5 rounded-xl flex items-center justify-between">
                         <div>
-              <span className="text-[10px] font-black uppercase text-[#00D632] tracking-wider bg-[#00D632]/15 px-2 py-0.5 rounded">
-                Cash App
-              </span>
+                          <span className="text-[10px] font-black uppercase text-[#00D632] tracking-wider bg-[#00D632]/15 px-2 py-0.5 rounded">
+                            Cash App
+                          </span>
                             <p className="text-sm font-bold text-white mt-1">{cashAppTag}</p>
                         </div>
                         <button
@@ -144,6 +145,7 @@ export function CheckoutModal({
                             )}
                         </button>
                     </div>
+                    */}
                 </div>
 
                 <div className="mt-5 p-3.5 rounded-xl bg-green-neon/10 border border-green-neon/30 text-xs text-neutral-300">
